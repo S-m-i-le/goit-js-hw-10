@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/https://github.com/S-m-i-le/goit-js-hw-10/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+
+    
+    <script type="module" crossorigin src="/https://github.com/S-m-i-le/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/https://github.com/S-m-i-le/goit-js-hw-10/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="modulepreload" crossorigin href="/https://github.com/S-m-i-le/goit-js-hw-10/assets/vendor-651d7991.js">
+    <link rel="stylesheet" href="/https://github.com/S-m-i-le/goit-js-hw-10/assets/vendor-80d0dc0f.css">
+    <link rel="stylesheet" href="/https://github.com/S-m-i-le/goit-js-hw-10/assets/styles-0efb256d.css">
+  </head>
+  <form class="form">
+    <label class="form-label">
+      <span>Delay (ms)</span>
+      <input type="number" name="delay" required />
+    </label>
+
+    <fieldset class="form-flex">
+      <legend>State</legend>
+      <label class="fulfilled">
+        <input type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label>
+        <input type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+
+    <button class="button-snackbar" type="submit">Create notification</button>
+  </form>
+  
+</html>
