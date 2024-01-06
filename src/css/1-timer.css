@@ -1,0 +1,86 @@
+.conteiner {
+  height: 496px;
+  width: 1440px;
+  padding-top: 36px;
+  padding-left: 156px;
+}
+
+#datetime-picker {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  margin-right: 8px;
+  margin-bottom: 32px;
+  width: 272px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #808080;
+}
+#datetime-picker:hover {
+  border: 1px solid #000;
+}
+#datetime-picker:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+.input-button button {
+  width: 75px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+}
+.input-button button:hover {
+  background: #6c8cff;
+  color: #ffffff;
+}
+.input-button button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+.timer {
+  width: 346px;
+  height: 72px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.value {
+  color: #2e2f42;
+
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 1.6px;
+}
+.label {
+  color: #2e2f42;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
